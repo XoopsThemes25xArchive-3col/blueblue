@@ -1,0 +1,8 @@
+<div id="xo-userbar">
+	<{if !$xoops_isuser}>
+	<a href="<{xoAppUrl themes/blueblue/xotpl/xoconnexion.html?height=30&amp;width=270}>" class="thickbox" accesskey="a"  title="<{$smarty.const._LOGIN}>"><img src="<{xoImgUrl icons/users/lock1.png}>" alt="<{$smarty.const._LOGIN}>" /></a></li>
+<{else}>
+<a href="<{xoAppUrl /admin.php}>" accesskey="x"  title="<{$smarty.const._CPHOME}>"><img src="<{xoImgUrl icons/users/configure1.png}>" alt="<{$smarty.const._CPHOME}>" /></a>
+<a href="<{xoAppUrl /user.php op=logout}>" title="<{$smarty.const._LOGOUT}>" ><img src="<{xoImgUrl icons/users/logout1.png}>" alt="<{$smarty.const._LOGOUT}>"/></a>
+<{/if}>
+</div>

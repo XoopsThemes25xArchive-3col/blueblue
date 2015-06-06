@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Connexion Web Site</title>
+</head>
+<body>
+<form action="../../user.php" method="post">
+  <div align="center">
+  <input type="text" name="uname" size="12" maxlength="25" onfocus="this.value=''" onblur="if(this.value=='')this.value='Pseudo';" value="Pseudo" />
+  <input type="password" name="pass" size="12" maxlength="32" onfocus="this.value=''" onblur="if(this.value=='')this.value='Password';" value="Password"/>
+  <input type="hidden" name="xoops_redirect" value="/index.php" />
+  <input type="hidden" name="op" value="login" />
+  <input type="submit" value="Ok" />
+  </div>
+</form>
+</body>
+</html>

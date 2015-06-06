@@ -1,0 +1,117 @@
+/* Thanks to Snow77, Skalpa and Leostotch for the initial work, Dugris for help  */
+/* Mor.pho.GEN.e.sis version 2.1 by kris (http://www.xoofoo.org and http://www.frxoops.org) */
+/* file name : forms.css  - 12 01 2008 */
+
+/*======= Style for forms, buttons, textarea, ... ========*/
+
+.xo-block form {
+	margin:						0;
+	padding:						0;
+}
+#xo-content form {
+	margin:						0;
+	background-color:			transparent;
+	color: 						inherit;
+}
+.xo-block .formButtons {
+	padding:						.5em;
+	text-align:					center;
+}
+.xo-formfield {
+	margin-bottom:				.2em;
+	background-color:			transparent;
+	color: 						inherit;
+}
+.xo-formbuttons, .formButton, button {
+	margin-top :				2px;
+	margin-bottom :			2px;
+	background-color: 		#244a6e;
+	color: 						#fff;
+	border : 					1px solid #0D395F;
+}
+.xo-formbuttons:hover, .formButton:hover, button:hover {
+	background-color:			#3a6d97;
+	color: 						#fff;
+	cursor:						pointer;
+}
+#xo-content .xo-formfield.required label:after {
+	background-color: 		#fff;
+	color:						#ff0000;
+	content:						'*';
+}
+select {
+	margin : 					1px;
+	background-color : 		#244a6e;
+	color : 						#fff;
+	font-size: 					.9em;
+	border: 						2px inset #f1f3f8;
+}
+select[name=timezone_offset] {
+	background-color : 		#244a6e;
+	color : 						#fff;
+	font-size:					.9em;
+}
+input[type=submit], input[type=reset], input[type=button] {
+	margin : 					0;
+	background-color: 		#244a6e;
+	padding : 					1px;
+	color: 						#fff;
+	font-size:					1em;
+	font-variant: 				small-caps;
+	border : 					1px solid #0D395F;
+}
+input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover {
+	background-color:			#3a6d97;
+	color: 						#fff;
+	cursor:						pointer;
+}
+input[type=text], input[type=password], input[type=checkbox], textarea {
+	margin: 						2px 0;
+	background-color : 		transparent;
+	padding-left:				.2em;
+	color:						#fff;
+	border : 					1px solid #244a6e;
+}
+input[type=text], input[type=password] {}
+input[type=text]:hover, input[type=password]:hover {	border : 	1px solid #139ee8;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=checkbox]:hover, textarea:focus {
+	border-color:				#0D395F;
+	outline:						1px solid #0D395F;
+}
+#xo-page textarea {}
+#xo-page fieldset {
+	padding: 					1em;
+	line-height: 				1.8em;
+}
+#xo-page fieldset a {
+	background-color: 		inherit;
+	font-weight: 				bold;
+	text-transform: 			uppercase;
+}
+#xo-page fieldset a:hover {
+	text-decoration: 			underline;
+}
+#xo-page legend {
+	font-size: 					1.1em;
+	font-weight: 				bold;
+}
+
+#xo-page label {
+	background-color:			transparent;
+	padding:						0;
+	color:						#3a6d97;
+	font-weight: 				bold;
+}
+textarea {
+	width : 						500px;
+	max-height: 				110px;
+	overflow: 					auto;
+	border : 					1px solid #244a6e;
+}
+textarea:hover {	border : 1px solid #139ee8;
+}
+
+
+
+
